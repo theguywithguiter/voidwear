@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VOIDWEAR — considered oversized essentials made for the in-between." />
+  <title>VOIDWEAR — Oversized essentials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <img src="images/hero.png" alt="Model in an oversized black VOIDWEAR t-shirt" class="hero__image" />
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <p class="eyebrow hero__eyebrow">Drop 01 / Core collection</p>
+        <h1>Made for the<br><em>in-between.</em></h1>
+        <p class="hero__copy">Weighty oversized forms for the hours that do not need a name.</p>
+        <a href="shop.html" class="button button--light">Shop the drop <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="hero__scroll" href="#featured" aria-label="Scroll to featured collection"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="marquee" aria-label="Brand principles">
+      <div class="marquee__track"><span>Oversized by design</span><i></i><span>240gsm heavyweight cotton</span><i></i><span>Built for repeat wear</span><i></i><span>Oversized by design</span><i></i><span>240gsm heavyweight cotton</span><i></i></div>
+    </section>
+
+    <section class="collection-section container" id="featured">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / Selected pieces</p><h2>Core forms.<br>Zero noise.</h2></div>
+        <a class="text-link" href="shop.html">View all pieces <span>↗</span></a>
+      </div>
+      <div class="product-grid product-grid--featured" id="featured-products"></div>
+    </section>
+
+    <section class="statement container">
+      <div class="statement__figure"><img src="images/tee5.png" alt="Washed black oversized t-shirt" loading="lazy" /></div>
+      <div class="statement__copy">
+        <p class="eyebrow">Built different</p>
+        <h2>Weight is a<br><em>feeling.</em></h2>
+        <p>Our 240gsm cotton is cut with a dropped shoulder, a wider body and a deliberate drape. No compromises. Nothing extra.</p>
+        <a href="product.html?id=5" class="text-link">Meet the Heavyweight Tee <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="editorial">
+      <div class="editorial__image"><img src="images/tee7.png" alt="Editorial oversized t-shirt look" loading="lazy" /></div>
+      <div class="editorial__panel"><p class="eyebrow">VOID / 001</p><h2>Take up<br>your space.</h2><p>Built in limited runs. Worn without rules.</p><a class="button button--outline" href="shop.html">Explore collection <span>↗</span></a></div>
+    </section>
+
+    <section class="newsletter container">
+      <p class="eyebrow">Stay in the void</p>
+      <h2>First to know.<br>Never too much.</h2>
+      <form class="newsletter__form" data-newsletter>
+        <label class="sr-only" for="newsletter-email">Email address</label>
+        <input id="newsletter-email" type="email" placeholder="Your email address" required />
+        <button type="submit" aria-label="Subscribe to newsletter">↗</button>
+      </form>
+      <p class="newsletter__status" aria-live="polite"></p>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="app.js"></script>
+</body>
+</html>

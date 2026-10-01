@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shop VOIDWEAR oversized heavyweight tees." />
+  <title>Shop — VOIDWEAR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="shop">
+  <div id="site-header"></div>
+  <main class="shop-page">
+    <header class="page-hero container"><p class="eyebrow">The complete drop / 01</p><h1>All pieces</h1><p>Heavyweight essentials with room to move.</p></header>
+    <section class="shop-controls container" aria-label="Product filters">
+      <div class="filter-tabs" role="tablist" aria-label="Filter products"><button class="is-active" data-filter="all" role="tab" aria-selected="true">All <span>08</span></button><button data-filter="black" role="tab" aria-selected="false">Black <span>03</span></button><button data-filter="grey" role="tab" aria-selected="false">Grey <span>03</span></button><button data-filter="earth" role="tab" aria-selected="false">Earth <span>02</span></button></div>
+      <label class="sort-select">Sort <select id="sort-products" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name: A–Z</option></select></label>
+    </section>
+    <section class="container"><div class="product-grid" id="shop-products"></div></section>
+  </main>
+  <div id="site-footer"></div><script src="app.js"></script>
+</body>
+</html>
